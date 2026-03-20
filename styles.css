@@ -2116,6 +2116,29 @@ a {
   }
 }
 
+/* --- Doctor Profile Caption --- */
+.doctor-caption {
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.doctor-name {
+  font-family: var(--ff-serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.doctor-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ruby);
+}
+
 @media (max-width: 480px) {
   .container {
     padding: 0 16px;
@@ -2142,3 +2165,4 @@ a {
     height: 24px;
   }
 }
+
